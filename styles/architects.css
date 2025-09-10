@@ -30,6 +30,15 @@
   background-color: rgba(255, 144, 14, 0.1);
 }
 
+.btn-primary{
+  background-color:#FF900E;
+  color: FFFFFF;
+  padding: 20px 25px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
 
     
 
@@ -42,6 +51,12 @@
 /* navbar reletade style */
 .navber{
   justify-content: space-between;
+  align-items: center;
+}
+.brand{
+  font-weight: 700;
+  font-size: 3rem;
+
 }
 .nav-item{
   list-style: none;
@@ -57,4 +72,26 @@
 .navber , .banner{
   max-width: 1440px;
   margin: 0 auto;
+}
+
+/* banner relate style */
+.banner-content{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.banner-title{
+  font-weight: 700px;
+  font-size: 4rem;
+}
+.banner-image{
+  width: 100%;
+}
+/* responsive relate style*/
+@media screen and (max-width:576px) {
+  .navber, .nav-links{
+    flex-direction: column;
+  }
 }

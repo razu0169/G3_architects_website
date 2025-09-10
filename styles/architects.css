@@ -8,3 +8,53 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* sheard style */
+.display-flex{
+  display: flex;
+}
+
+
+/*Drak02 */
+.text-gray{
+  color: #424242;
+
+}
+
+/* Drak03 */
+.text-light-gray{
+  color: #727272;
+}
+
+.bg-light{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+
+    
+
+
+
+/* header style */
+
+
+
+/* navbar reletade style */
+.navber{
+  justify-content: space-between;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+
+}
+
+.nav-link{
+  text-decoration: none;
+  font-weight: 500px;
+  font-size: 18px;
+}
+.navber , .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}

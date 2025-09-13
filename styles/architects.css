@@ -47,7 +47,10 @@ main{
 main{
   margin-top: 130px;
 }
-    
+    .section-title{
+  font-size: 2.8rem;
+  font-weight: 700px;
+}
 
 
 
@@ -109,14 +112,15 @@ main{
 }
 
 .oure-features{
-  margin-left: 76px;
+  margin-left: 130px;
   max-width: 530px;
 }
 
-.feature-title{
-  font-size: 2.8rem;
-  font-weight: 700px;
+.text-primary{
+  color: #FF900E;
 }
+
+
 
 #id{
   font-weight: 500px;
@@ -124,7 +128,26 @@ main{
 
 /* responsive relate style*/
 @media screen and (max-width:576px) {
-  .navber, .nav-links{
+  .navber,
+   .nav-links,
+   .teams{
     flex-direction: column;
+  }
+
+  .team-images-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .oure-features{
+    margin-left: 20px;
+  }
+}
+
+/* medium responsive decice */
+@media screen and (min-width:576px) and (max-width:992px) {
+  .teams{
+    flex-direction: column;
+  }
+  .oure-features{
+    margin-left: 50px auto;
   }
 }

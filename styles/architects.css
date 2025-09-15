@@ -125,8 +125,31 @@ main{
 #id{
   font-weight: 500px;
 }
+/* feature section reletate style */
 
+.features{
+  gap: 146px;
+}
+#feature-section-title{
+  border-left: 5px solid #FF900E;
+padding-left: 20px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
 
+.feature-card{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  box-shadow: 0 4px 4px 0  rgba(0, 0, 0, 0.25);
+}
+.feature-card,.feature-title{
+  font-weight: 600px;
+  font-size: 1.25rem;
+
+  
+
+}
 /* some facts reletate style */
 .facts-container{
   display: grid;
